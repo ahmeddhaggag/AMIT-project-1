@@ -12,7 +12,7 @@ void SDB_App(){  //Function to be called in main()
     }
     uint8 choice;  /* The function will then prompt the user to choose
                     an action which will be stored in this variable */
-
+ 
     while(1){  //Runs the program infinitely until th user chooses to exit
      printf("Choose action:\n"); //Prompts user in each iteration
      //Actions: 
@@ -36,8 +36,9 @@ void SDB_App(){  //Function to be called in main()
 
 }
 
-void SDB_Action(uint8 choice){ // Prompts the user for a number which corresponds to an action(a function) the program will perform by calling a function
-    uint32 ID; // To store ID entered by the user
+void SDB_Action(uint8 choice){ /* Prompts the user for a number which corresponds to an action
+    (a function) the program will perform by calling a function */
+    uint32 ID; // To store ID entered by the user if the user chooses an action related to it
     switch(choice){
         case 1:
             SDB_AddEntry(); 
