@@ -13,7 +13,7 @@ void SDB_App(){  //Function to be called in main()
     uint8 choice;  /* The function will then prompt the user to choose
                     an action which will be stored in this variable */
  
-    while(1){  //Runs the program infinitely until th user chooses to exit
+    while(1){  //Runs the program infinitely until the user chooses to exit
      printf("Choose action:\n"); //Prompts user in each iteration
      //Actions: 
      printf("To add entry, enter 1\n"
